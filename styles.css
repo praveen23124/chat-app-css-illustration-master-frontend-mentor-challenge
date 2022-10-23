@@ -1,0 +1,257 @@
+body{
+  margin: 0;
+  padding: 0 2rem 0 0;
+  background: #F0EBE3;
+}
+main{
+
+}
+.backgroundContainer{
+  background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));;
+  width: 13rem;
+  height: 37rem;
+  border-radius: 0px 0px 250px 0px;
+  position: absolute;
+  /* z-index: -1; */
+  margin-bottom: 8rem;
+}
+.firstContainer{
+  border: 15px solid;
+  border-color: hsl(0, 0%, 100%);;
+  border-radius: 36px;
+  width: 18rem;
+  height: 35.5rem;
+  margin: auto;
+  position: relative;
+  left: 12%;
+  top: 80px;
+  z-index: 1;
+  margin-bottom: 8rem;
+}
+.notch{
+  border-radius: 0 0 15px 15px;
+  background: white;
+  width: 10rem;
+  height: 21px;
+  margin: auto;
+  position: absolute;
+  margin-left: 4rem;
+  z-index: 2;
+}
+.header{
+  display: flex;
+  background: linear-gradient(to right,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  object-fit: fill;
+  border-radius: 26px 26px 6px 6px;
+  padding-top: 2rem;
+  padding-bottom: 0.3rem;
+  position: relative;
+}
+.fa-caret-left{
+  position: absolute;
+  color: white;
+  top: 55%;
+  left: 5%;
+}
+.fa-ellipsis-vertical{
+  position: absolute;
+  color: white;
+  top: 55%;
+  right: 10%;
+}
+.imgDiv{
+  padding: 0.7rem 0.1rem 0.5rem 2rem;
+}
+.header img{
+  width: 1.7rem;
+  border-radius: 30px;
+  border: 2px solid white;
+  padding: auto 0 auto 0;
+}
+.nameStatus{
+line-height: 0.3;
+width: 50%;
+margin-left: 0.5rem;
+}
+.name{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+.status{
+ opacity: 30%;
+ font-size: .7rem;
+}
+.screen{
+  display: flex;
+  flex-direction: column;
+  grid-gap: .5rem;
+  background: hsl(270, 20%, 96%);
+  font-size: .6rem;
+  height: 30rem;
+  border-radius: 0 0 26px 26px;
+
+}
+.message{
+  width: 50%;
+  padding: .5rem;
+  border-radius: 10px 15px 7px 2px;
+  background: hsl(276, 100%, 81%);
+  margin-left: .8rem;
+  align-items: flex-end;
+  line-height: 1.3;
+}
+.message1{
+  margin-top: 1rem;
+}
+.message3{
+  width: 40%;
+  margin-right: .8rem;
+}
+.message4{
+  width: 30%;
+  margin-right: .8rem;
+}
+.rightMessages1{
+  display: flex;
+  justify-content: flex-end;
+}
+.rightMessages2{
+  display: flex;
+  justify-content: flex-end;
+}
+.rightMessage{
+  border-radius: 10px 10px 2px 10px;
+  padding: .7rem;
+  background: white;
+}
+.pics{
+  display: flex;
+  justify-content: flex-end;
+  grid-gap: .5rem;
+}
+.dog{
+  width: 2.7rem;
+  border-radius: 15px;
+}
+.price{
+  background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));;
+  padding: .8rem;
+  border-radius: 11px 11px 11px 5px;
+  width: 60%;
+  color: white;
+  letter-spacing: 1px;
+  margin-left: .8rem;
+
+}
+.price h{
+  color: white;
+  font-size: .9rem;
+  font-weight: bold;
+
+}
+.price1 h{
+  margin-left: 1.4rem;
+}
+.price2 h{
+  margin-left: 2.5rem;
+}
+.fa-circle{
+  color: white;
+  opacity: 60%;
+  margin-right: .7rem;
+}
+.typeMessage{
+  background: white;
+  padding: 1rem;
+  width: 84%;
+  height: 1rem;
+  margin: 0 auto 0 auto;
+  border-radius: 30px;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  display: flex;
+  /* margin: auto 0 auto 0; */
+}
+.fa-circle-chevron-right{
+  margin-left: 5rem;
+}
+.msg{
+  width: 90%;
+}
+.secondContainer h1{
+ font-family: 'Rubik', sans-serif;
+ font-weight: 700;
+ font-size: 2.5rem;
+}
+.h1Div{
+  margin-left: 1.5rem;
+  margin-right: 0rem;
+  color: black;
+}
+.secondContainer p{
+  margin-left: 2.5rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: hsl(270, 7%, 64%);
+}
+.lastContainer{
+  width: 9rem;
+  height: 28rem;
+  background: red;
+  opacity: 5%;
+  position: relative;
+  left: 70%;
+  bottom: 24rem;
+  z-index: 2;
+  border-radius: 120px 0 0 0;
+}
+@media (min-width: 500px) {
+  .backgroundContainer{
+    width: 25rem;
+    border-radius: 0px 0px 290px 220px;
+    height: 45rem;
+  }
+  .firstContainer{
+    position: relative;
+    left: 0%;
+    top: 100px;
+    margin-bottom: 0rem;
+
+  }
+  main{
+    display: flex;
+  }
+  .secondContainer{
+    width: 24rem;
+    margin-left: 0rem;
+    position: relative;
+    right: 14%;
+    margin-top: 18rem;
+    text-align: left;
+  }
+  .h1Div{
+    margin-left: 0rem;
+    margin-right: 0rem;
+    color: black;
+  }
+  .secondContainer p{
+    margin-left: 0rem;
+    margin-right: 0rem;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+  .lastContainer{
+    opacity: 5%;
+    position: absolute;
+    left: 75%;
+    bottom: 0rem;
+    z-index: 2;
+    border-radius: 300px 0 0 0;
+    width: 20rem;
+    height: 35rem;
+  }
+}
